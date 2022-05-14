@@ -1,0 +1,14 @@
+{
+  "name": "my-app-hello-js",
+  "id": "nextjs-function-091b2a",
+  "triggers": [
+    {
+      "event": "myapp/user.signup",
+      "definition": {
+        "format": "cue",
+        "synced": true,
+        "def": "file://./events/user-signup.cue"
+      }
+    }
+  ]
+}
